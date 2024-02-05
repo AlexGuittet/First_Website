@@ -1,13 +1,11 @@
 body {
-    background-image: url(https://wallpaperset.com/w/full/6/1/4/225894.jpg);
-    background-size: 
+    background-image: url(https://wallpaperset.com/w/full/6/1/4/225894.jpg)
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
 }
 
 p {
@@ -17,3 +15,17 @@ p {
 a {
     font-size: 25px;
 }
+
+a {
+    color:rgb(0, 0, 0)
+}
+
+/* visited link */
+a:visited {
+    color:rgb(255, 255, 255)
+}
+
+/* mouse over link */
+a:hover {
+    color:chartreuse
+  }
